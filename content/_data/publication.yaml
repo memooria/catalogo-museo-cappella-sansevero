@@ -31,7 +31,8 @@ language: it
 pub_type: book # book | journal-periodical | other
 
 identifier: 
-  isbn:
+  isbn: 978-88-941850-2-7
+  DOI: 10.82049/CATALOGO
 
 publisher:
   - name: Museo Cappella Sansevero
