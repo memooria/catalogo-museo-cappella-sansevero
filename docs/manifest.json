@@ -167,27 +167,143 @@
     "file": "_assets/notoserif-regular.woff2",
     "src": "_assets/fonts/noto-serif/notoserif-regular.woff2"
   },
-  "_assets/images/Collezione_Zeri.jpeg": {
-    "file": "_assets/Collezione_Zeri.jpeg",
-    "src": "_assets/images/Collezione_Zeri.jpeg"
+  "_assets/images/Cover_San_Severo.jpg": {
+    "file": "_assets/Cover_San_Severo.jpg",
+    "src": "_assets/images/Cover_San_Severo.jpg"
   },
-  "_assets/images/contributors/martinabagnoli.jpg": {
-    "file": "_assets/martinabagnoli.jpg",
-    "src": "_assets/images/contributors/martinabagnoli.jpg"
+  "_assets/images/Mappa-mcss-quire.png": {
+    "file": "_assets/Mappa-mcss-quire.png",
+    "src": "_assets/images/Mappa-mcss-quire.png"
   },
-  "_assets/images/contributors/paoloplebani.jpg": {
-    "file": "_assets/paoloplebani.jpg",
-    "src": "_assets/images/contributors/paoloplebani.jpg"
+  "_assets/images/figures/10.jpg": {
+    "file": "_assets/10.jpg",
+    "src": "_assets/images/figures/10.jpg"
   },
-  "_assets/images/figures/35.jpg": {
-    "file": "_assets/35.jpg",
-    "src": "_assets/images/figures/35.jpg"
+  "_assets/images/figures/11.jpg": {
+    "file": "_assets/11.jpg",
+    "src": "_assets/images/figures/11.jpg"
   },
-  "_assets/images/logo-cappella-san-severo.png": {
-    "file": "_assets/logo-cappella-san-severo.png",
-    "src": "_assets/images/logo-cappella-san-severo.png"
+  "_assets/images/figures/12.jpg": {
+    "file": "_assets/12.jpg",
+    "src": "_assets/images/figures/12.jpg"
   },
-  "_index-e89f4f5a.js": {
+  "_assets/images/figures/13.jpg": {
+    "file": "_assets/13.jpg",
+    "src": "_assets/images/figures/13.jpg"
+  },
+  "_assets/images/figures/14.jpg": {
+    "file": "_assets/14.jpg",
+    "src": "_assets/images/figures/14.jpg"
+  },
+  "_assets/images/figures/15.jpg": {
+    "file": "_assets/15.jpg",
+    "src": "_assets/images/figures/15.jpg"
+  },
+  "_assets/images/figures/16.jpg": {
+    "file": "_assets/16.jpg",
+    "src": "_assets/images/figures/16.jpg"
+  },
+  "_assets/images/figures/17.jpg": {
+    "file": "_assets/17.jpg",
+    "src": "_assets/images/figures/17.jpg"
+  },
+  "_assets/images/figures/18.jpg": {
+    "file": "_assets/18.jpg",
+    "src": "_assets/images/figures/18.jpg"
+  },
+  "_assets/images/figures/19.jpg": {
+    "file": "_assets/19.jpg",
+    "src": "_assets/images/figures/19.jpg"
+  },
+  "_assets/images/figures/1_1.jpg": {
+    "file": "_assets/1_1.jpg",
+    "src": "_assets/images/figures/1_1.jpg"
+  },
+  "_assets/images/figures/2.jpg": {
+    "file": "_assets/2.jpg",
+    "src": "_assets/images/figures/2.jpg"
+  },
+  "_assets/images/figures/20.jpg": {
+    "file": "_assets/20.jpg",
+    "src": "_assets/images/figures/20.jpg"
+  },
+  "_assets/images/figures/21.jpg": {
+    "file": "_assets/21.jpg",
+    "src": "_assets/images/figures/21.jpg"
+  },
+  "_assets/images/figures/22.jpg": {
+    "file": "_assets/22.jpg",
+    "src": "_assets/images/figures/22.jpg"
+  },
+  "_assets/images/figures/23.jpg": {
+    "file": "_assets/23.jpg",
+    "src": "_assets/images/figures/23.jpg"
+  },
+  "_assets/images/figures/24.jpg": {
+    "file": "_assets/24.jpg",
+    "src": "_assets/images/figures/24.jpg"
+  },
+  "_assets/images/figures/25.jpg": {
+    "file": "_assets/25.jpg",
+    "src": "_assets/images/figures/25.jpg"
+  },
+  "_assets/images/figures/26.jpg": {
+    "file": "_assets/26.jpg",
+    "src": "_assets/images/figures/26.jpg"
+  },
+  "_assets/images/figures/27_1.jpg": {
+    "file": "_assets/27_1.jpg",
+    "src": "_assets/images/figures/27_1.jpg"
+  },
+  "_assets/images/figures/28.jpg": {
+    "file": "_assets/28.jpg",
+    "src": "_assets/images/figures/28.jpg"
+  },
+  "_assets/images/figures/29_1.jpg": {
+    "file": "_assets/29_1.jpg",
+    "src": "_assets/images/figures/29_1.jpg"
+  },
+  "_assets/images/figures/30.jpg": {
+    "file": "_assets/30.jpg",
+    "src": "_assets/images/figures/30.jpg"
+  },
+  "_assets/images/figures/31.jpg": {
+    "file": "_assets/31.jpg",
+    "src": "_assets/images/figures/31.jpg"
+  },
+  "_assets/images/figures/3_1.jpg": {
+    "file": "_assets/3_1.jpg",
+    "src": "_assets/images/figures/3_1.jpg"
+  },
+  "_assets/images/figures/4.jpg": {
+    "file": "_assets/4.jpg",
+    "src": "_assets/images/figures/4.jpg"
+  },
+  "_assets/images/figures/5.jpg": {
+    "file": "_assets/5.jpg",
+    "src": "_assets/images/figures/5.jpg"
+  },
+  "_assets/images/figures/6.jpg": {
+    "file": "_assets/6.jpg",
+    "src": "_assets/images/figures/6.jpg"
+  },
+  "_assets/images/figures/7_1.jpg": {
+    "file": "_assets/7_1.jpg",
+    "src": "_assets/images/figures/7_1.jpg"
+  },
+  "_assets/images/figures/8.jpg": {
+    "file": "_assets/8.jpg",
+    "src": "_assets/images/figures/8.jpg"
+  },
+  "_assets/images/figures/9.jpg": {
+    "file": "_assets/9.jpg",
+    "src": "_assets/images/figures/9.jpg"
+  },
+  "_assets/images/logo-cappella-san-severo_nav.png": {
+    "file": "_assets/logo-cappella-san-severo_nav.png",
+    "src": "_assets/images/logo-cappella-san-severo_nav.png"
+  },
+  "_index-23aaf484.js": {
     "assets": [
       "_assets/ibmplexsanscondensed-regular.eot",
       "_assets/ibmplexsanscondensed-regular.woff2",
@@ -235,7 +351,7 @@
     "css": [
       "_assets/index.css"
     ],
-    "file": "_assets/index-e89f4f5a.js"
+    "file": "_assets/index-23aaf484.js"
   },
   "index.css": {
     "file": "_assets/index.css",

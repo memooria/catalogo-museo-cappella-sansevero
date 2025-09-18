@@ -13,20 +13,20 @@ url: 'https://quireac.dev-box.it'
 
 # ------------------------------------------------------------------------------
 # Title & Description
-title: Museo Cappella San Severo - Catalogo Scientifico Digitale 
+title: MUSEO CAPPELLA SANSEVERO - Catalogo scientifico digitale 
 subtitle: 
 reading_line:
 short_title:
 
 description:
   one_line:
-  full: "Il Catalogo Scientifico Digitale del Museo Cappella San Severo è un innovativo progetto di editoria digitale che contiene schede curatoriali dedicate alle opere d'arte custodite presso il museo bergamasco. Le schede riportano informazioni sui materiali, le tecniche d’esecuzione e lo stato di conservazione di ciascuna opera. Se noto, indicano se esse erano state realizzate per un luogo e per un committente ben preciso e se facevano parte di un insieme ora disperso. Vengono inoltre discussi i problemi di attribuzione e datazione, raccontata la storia di chi ha posseduto le opere e molto altro."
+  full: "Il Catalogo scientifico digitale del Museo Cappella San Severo è un innovativo progetto di editoria digitale che contiene schede curatoriali dedicate alle opere d'arte custodite presso il museo bergamasco. Le schede riportano informazioni sui materiali, le tecniche d’esecuzione e lo stato di conservazione di ciascuna opera. Se noto, indicano se esse erano state realizzate per un luogo e per un committente ben preciso e se facevano parte di un insieme ora disperso. Vengono inoltre discussi i problemi di attribuzione e datazione, raccontata la storia di chi ha posseduto le opere e molto altro."
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2022-12-01 # YYYY-MM-DD
+pub_date: 2025-09-15 # YYYY-MM-DD
 language: it
 pub_type: book # book | journal-periodical | other
 
@@ -34,10 +34,10 @@ identifier:
   isbn:
 
 publisher:
-  - name: Haltadefinizione
-    location: Modena
-    url: https://www.haltadefinizione.com/
-    logo: logo-cappella-san-severo.png
+  - name: Museo Cappella Sansevero
+    location:
+    url: https://www.museosansevero.it
+    logo: logo-cappella-san-severo_nav.png
 
 # ------------------------------------------------------------------------------
 # Contributors
@@ -46,29 +46,59 @@ publisher:
 contributor_as_it_appears:
 
 contributor:
-  - id: jkeller
-    type: primary
-    first_name: Mario
-    last_name: Rossi
-    title: Direttrice
-    affiliation: Museo Cappella San Severo
-    bio: "Direttore di museo con vasta esperienza internazionale e comprovata capacità di sviluppare e attuare una visione strategica per grandi istituzioni museali. Forte competenza nella progettazione, negoziazione e attuazione di cambiamenti aziendali al fine di sviluppare approcci innovativi al patrimonio museale e artistico per una sua efficace conservazione, valorizzazione e fruizione. Storica dell’arte di fama e curatrice di importanti esposizioni internazionali con all’attivo più di 130 tra mostre, pubblicazioni, docenze accademiche e conferenze. Esperta comunicatrice con una solida esperienza nella raccolta fondi e nella costruzione di partnership, Martina Bagnoli è una appassionata sostenitrice del ruolo dell'arte nella società. Dal 2015 a gennaio 2024 è stata direttrice delle Gallerie Estensi, un museo autonomo del Ministero della Cultura italiano che comprende la Galleria Estense di Modena, la Biblioteca Estense universitaria, il Museo lapidario, il Palazzo ducale di Sassuolo e la Pinacoteca nazionale di Ferrara. In precedenza, dal 2002 al 2015, Bagnoli è stata curatrice di arte medievale per il Walters Art Museum. Da febbraio 2024 dirige l'Accademia Carrara di Bergamo."
-    image: contributors/martinabagnoli.jpg
-
-  - id: pplebani
+  - id: lcoiro
     type: secondary
-    first_name: Maria
-    last_name: Rossi
-    title: Responsabile Dipinti, Disegni, Stampe, Archivi Storici, Biblioteca Storica
+    first_name: Luigi
+    last_name: Coiro
+    title: Assegnista di ricerca
+    role: other-role
+    bio: "**Luigi Coiro** è assegnista di ricerca presso il Dipartimento di Scienze umane e sociali dell’Università degli Studi di Napoli L'Orientale. Ha conseguito la specializzazione all’Università degli Studi di Napoli Federico II e il dottorato di ricerca al Suor Orsola Benincasa. Studioso del Sei e Settecento meridionale, con particolare riguardo alla scultura e alla vicenda di Cosimo Fanzago, è stato collaboratore scientifico della Bibliotheca Hertziana – Istituto Max-Planck per la storia dell’arte e del CIRICE – Centro Interdipartimentale di Ricerca sull’Iconografia della Città Europea della Federico II per il progetto _Naples Digital Archive_."
+
+  - id: gforgione
+    type: secondary
+    first_name: Gianluca
+    last_name: Forgione
+    title: Professore associato
     affiliation: Museo Cappella San Severo
-    bio: "Storico dell’arte, specializzato in pittura veneta tra XVI e XVIII secolo, conservatore all’Accademia Carrara di Bergamo. Tra i suoi lavori, molte collaborazioni con saggi e schede di catalogo a mostre: si ricordi il recente contributo a *La peinture en Lombardie au XVII siècle. De la violence des passions à l’idéal de beauté* (Palais Fesch, Ajaccio, 2014). Tra le sue pubblicazioni, la monografia *Verona e gli artisti veronesi nelle «Vite» di Giorgio Vasari* (LED Edizioni Universitarie, Milano 2012)."
-    image: contributors/paoloplebani.jpg
+    bio: "**Gianluca Forgione** è professore associato di Museologia e critica artistica e del restauro all’Università degli Studi di Ferrara. Si è addottorato all’Università degli Studi di Napoli Federico II con una tesi sui Girolamini, pubblicata in volume nel 2020, e ha svolto attività di ricerca, tra gli altri, per la Bibliotheca Hertziana – Istituto Max Planck per la storia dell’arte, per la Fondazione Longhi e per la Fondazione 1563 per l’Arte e la Cultura della Compagnia di San Paolo. I suoi interessi scientifici riguardano in particolare le relazioni artistiche tra Napoli, Roma e l’Emilia in Età barocca. Nel 2022 ha pubblicato uno studio sulla committenza artistica di Raimondo di Sangro (_I simulacri delle cose. La Cappella Sansevero e il barocco romano_)."
+
+  - id: siorio
+    type: secondary
+    first_name: Sabrina
+    last_name: Iorio
+    title: Consulente
+    affiliation: Museo Cappella San Severo
+    bio: "**Sabrina Iorio** è consulente presso la Fondazione Banco di Napoli come archivista e umanista digitale, e collabora a progetti di ricerca, databasing e digitalizzazione con le Università degli Studi di Napoli Federico II e Suor Orsola Benincasa. Ha conseguìto il suo dottorato di ricerca alla Federico II con una tesi su Giacomo Lazzari e l’arte marmoraria del primo Seicento a Napoli, concentrandosi in particolare sugli aspetti socio-economici legati al funzionamento delle botteghe e alle dinamiche proprie di alcuni dei maggiori cantieri barocchi della città."
+
+  - id: eloiodice
+    type: secondary
+    first_name: Eleonora
+    last_name: Loiodice
+    title: Dottorato di ricerca
+    affiliation: Museo Cappella San Severo
+    bio: "**Eleonora Loiodice** ha conseguito il dottorato di ricerca in Studi Umanistici (Storia della Scienza) presso l’Università degli Studi di Bari, di cui è stata anche assegnista di ricerca. Nel 2020 ha ottenuto una borsa di ricerca dal Museo Cappella Sansevero e dall’Istituto Italiano di Studi Filosofici di Napoli, e attualmente è docente di Storia e Filosofia nelle scuole superiori. Le sue ricerche si concentrano sulla storia del pensiero scientifico nei suoi rapporti con l’antropologia, la teologia e la mitologia comparata; in particolare è specialista del pensiero filosofico e scientifico in età moderna e contemporanea, nonché di storia e tecniche della comunicazione scientifica."
+
+  - id: arusso
+    type: secondary
+    first_name: Augusto
+    last_name: Russo
+    title: Ricercatore
+    affiliation: Museo Cappella San Severo
+    bio: "**Augusto Russo** è ricercatore di Storia dell’arte moderna all’Università degli Studi di Napoli Federico II. Ha conseguito il dottorato di ricerca nel medesimo ateneo, ed è stato borsista della Fondazione 1563 per l’Arte e la Cultura della Compagnia di San Paolo. I suoi interessi di ricerca vertono sulla pittura e la scultura d’Età barocca, con particolare attenzione al contesto napoletano, alla personalità di Francesco De Mura e al genere del ritratto. Ha effettuato un soggiorno di ricerca presso il Courtauld Institute of Art di Londra (2023-24)."
+
+  - id: msaggiomo
+    type: secondary
+    first_name: Mariano
+    last_name: Saggiomo
+    title: Dottorato di ricerca
+    affiliation: Museo Cappella San Severo
+    bio: "**Mariano Saggiomo** si è addottorato all’Università degli Studi di Napoli Federico II, occupandosi in particolare di arte napoletana in età moderna in riferimento al patronato laico dei luoghi di culto e al collezionismo sei e settecentesco. È docente a contratto di Storia dell’arte moderna nel medesimo ateneo, e borsista post-doc della Bibliotheca Hertziana – Istituto Max Planck per la storia dell’arte. È attualmente in via di pubblicazione, per la collana digitale dell’Hertziana, la sua monografia _Memorie perdute. Chiese gentilizie napoletane tra tardo Medioevo ed Età moderna._"
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2025 Museo Cappella San Severo - Ministero della Cultura
+copyright: © 2025 Museo Cappella Sansevero
 
 license:
   name: Creative Commons Attribution 4.0 International License
@@ -91,18 +121,6 @@ resource_link:
     media_type: application/epub+zip
     link_relation: alternate
     url: /downloads/output.epub
-  - type: footer-link
-    name: About
-    link_relation: about
-    url: /about/
-  - type: footer-link
-    name: Privacy Policy
-    link_relation: privacy-policy
-    url:
-  - type: footer-link
-    name: Terms of Use
-    link_relation: terms-of-service
-    url:
 
 # ------------------------------------------------------------------------------
 # Subjects

@@ -63,10 +63,9 @@ jobs:
         continue-on-error: true
         run: |
           quire pdf
-          sudo apt-get install pandoc
+          sudo apt-get install pandoc wkhtmltopdf
           mkdir -p _site/downloads
-          pandoc _site/pdf.html -o _site/downloads/output.pdf
-
+          pandoc _site/pdf.html -o _site/downloads/output.pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access
 
       - name: GH Pages customizations
         run: |

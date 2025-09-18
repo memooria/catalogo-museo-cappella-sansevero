@@ -1,60 +1,279 @@
 figure_list:
 
-  - id: "cat-35"
-    src: figures/35.jpg
-    caption: "Tito Sarrocchi nella bottega di Giovanni Dupré, *Ritratto di Luigi Tonti*"
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/74197d41-f274-4f8b-8caa-f01600b04479/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/74197d41-f274-4f8b-8caa-f01600b04479/canvas/ebd087e7-2473-44aa-9fa2-25205f7493b8
+  - id: "cat-1"
+    src: figures/1_1.jpg
+    caption: "Compianto sul Cristo morto, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/canvas/df16ebcd-6457-4cc8-8b76-b7338b6b2ba5
     zoom: true
 
-  - id: "cat-35_1"
-    src: figures/35_1.jpg
-    caption: "Fig. 1 - Tito Sarrocchi nella bottega di Giovanni Dupré, *Ritratto di Luigi Tonti* (recto con cornice e iscrizione)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/b04bc18f-2909-4c48-94a1-0b5edba73f66/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/b04bc18f-2909-4c48-94a1-0b5edba73f66/canvas/d3c3c2a7-c9d3-4830-a3ae-3126ddc17b2c
+  - id: "cat-2"
+    src: figures/2.jpg
+    caption: "Gloria angelica, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/b7cadad3-1b98-421f-a695-3082f1a52b9a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/b7cadad3-1b98-421f-a695-3082f1a52b9a/canvas/6ec0dbb4-fb35-45a0-bf03-baabb0ab557f
     zoom: true
 
-  - id: "cat-35_2"
-    src: figures/35_2.jpg
-    caption: "Fig. 2 - Tito Sarrocchi nella bottega di Giovanni Dupré, *Ritratto di Luigi Tonti* (recto, particolare)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/b0a135e3-d010-49b8-9249-a6a3822b0d5b/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/b0a135e3-d010-49b8-9249-a6a3822b0d5b/canvas/9665630c-062e-42bd-b94a-8409767c15e8
+  - id: "cat-3"
+    src: figures/3_1.jpg
+    printImage: figures/3_1.jpg
+    caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/v3/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/v3/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
     zoom: true
 
-  - id: "cat-35_3"
-    src: figures/35_3.jpg
-    caption: "Fig. 3 - Giovanni Dupré, *Giotto*, Firenze, Loggiato degli Uffizi (particolare)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/665a46d2-2248-4b9b-a4f5-00da49cf16d5/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/665a46d2-2248-4b9b-a4f5-00da49cf16d5/canvas/01fc413a-4122-433f-ac2d-06ebf8b319b1
+  - id: "cat-3_2"
+    src: figures/3_2.jpg
+    caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/v3/37def84b-a655-4665-bb27-82185aa40104/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/v3/37def84b-a655-4665-bb27-82185aa40104/canvas/f6d6b73f-cc6b-4315-b538-4596ba48724a
     zoom: true
 
-  - id: "cat-35_4"
-    src: figures/35_4.jpg
-    caption: "Fig. 4 - Giovanni Dupré, *Sonno dell’Innocenza*, Siena, Museo dell’Opera del Duomo (particolare)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/3631860d-f0b1-43f2-87cb-84a0f0471835/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/3631860d-f0b1-43f2-87cb-84a0f0471835/canvas/b216ab1c-3e5c-40d5-8637-15434351e5a2
+  - id: "cat-4"
+    src: figures/4.jpg
+    caption: "Monumento funerario di Alessandro di Sangro, patriarca di Alessandria, *Giovan Domenico Monterosso, Giacomo Lazzari, Giovanni Antonio Galluccio*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/canvas/87f0d79e-0a1f-49d9-bb2f-6b301b7b8602
     zoom: true
 
-  - id: "cat-35_6"
-    src: figures/35_6.jpg
-    caption: "Fig. 6 - Francesco Ferrucci detto del Tadda, *Ritratto di Cosimo I*, Londra, Victoria and Albert Museum."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/bd5eda0c-9978-481e-9abf-02865f20fcf0/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/bd5eda0c-9978-481e-9abf-02865f20fcf0/canvas/f0642e0a-3f40-46c5-9823-96266fb9dba9
+  - id: "cat-5"
+    src: figures/5.jpg
+    caption: "Cristo velato, *Giuseppe Sanmartino*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/canvas/6620ee76-c670-457e-90a5-8131f25bdd7e
     zoom: true
 
-  - id: "cat-35_7"
-    src: figures/35_7.jpg
-    caption: "Fig. 7 - Tito Sarrocchi nella bottega di Giovanni Dupré, *Ritratto di Luigi Tonti* (recto senza cornice)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/28f56217-ae69-445a-afef-563aa3f7ca83/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/28f56217-ae69-445a-afef-563aa3f7ca83/canvas/dcc03725-6480-4bb2-8dd4-830c5b662de3
+  - id: "cat-6"
+    src: figures/6.jpg
+    caption: "Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fa115785-64e2-42b7-ab9b-34a0f9141f1e/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fa115785-64e2-42b7-ab9b-34a0f9141f1e/canvas/88959179-6949-4b9a-8926-836ededfb59a
+    zoom: true
+  
+  - id: "cat-7"
+    src: figures/7_1.jpg
+    caption: "Santa Rosalia, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/canvas/821fa2dc-2072-4a2f-bcf6-21ddec430215
     zoom: true
 
-  - id: "cat-35_8"
-    src: figures/35_8.jpg
-    caption: "Fig. 8 - Tito Sarrocchi nella bottega di Giovanni Dupré, *Ritratto di Luigi Tonti* (verso senza cornice)."
-    manifestId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/e34fcde0-a432-4253-8729-ed8e4d5b3cf6/manifest
-    canvasId: https://accademiacarrara.jarvis.memooria.org/meta/iiif/e34fcde0-a432-4253-8729-ed8e4d5b3cf6/canvas/ed987646-01e7-487b-940a-3f04bf38ff8a
+  - id: "cat-7_2"
+    src: figures/7_2.jpg
+    caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/db9c4e22-8c04-427c-a0ca-9d529bf67cf3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/db9c4e22-8c04-427c-a0ca-9d529bf67cf3/canvas/cc22c81f-a913-4a50-8915-6c5e9adba59f
     zoom: true
+
+  - id: "cat-8"
+    src: figures/8.jpg
+    caption: "Soavità del giogo coniugale – Monumento funerario di Gaetana Mirelli, moglie di Vincenzo di Sangro, ottavo principe di Sansevero, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/2f7aa5d6-909a-428e-8f5a-9e3fc2314cc5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/2f7aa5d6-909a-428e-8f5a-9e3fc2314cc5/canvas/f8412b6d-165d-4b39-b911-5b5c94188d4d
+    zoom: true
+
+  - id: "cat-9"
+    src: figures/9.jpg
+    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero,  *Autore ignoto: Monumento; Carlo Amalfi: Ritratto pittorico in tondo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/canvas/7392e223-781f-4b37-88ee-31dbc2e8e319
+    zoom: true
+
+  - id: "cat-10"
+    src: figures/10.jpg
+    caption: "Zelo della Religione – Monumento funerario di Ippolita del Carretto e di Adriana Carafa della Spina, prima e seconda moglie di Giovan Francesco di Sangro, primo principe di Sansevero, *Fortunato Onelli e altri; Francesco Celebrano: direzione dei lavori*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a80046df-1c54-4952-a78c-0daa582fecad/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a80046df-1c54-4952-a78c-0daa582fecad/canvas/59160bd7-16a8-4e42-9438-1291901abc64
+    zoom: true
+
+  - id: "cat-11"
+    src: figures/11.jpg
+    caption: "Monumento funerario di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/c257cfa1-1926-4dc9-93c6-53f023b3feb7/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/c257cfa1-1926-4dc9-93c6-53f023b3feb7/canvas/b7331695-1412-4e2b-aba2-75fdc2d93a28
+    zoom: true
+
+  - id: "cat-12"
+    src: figures/12.jpg
+    caption: "Liberalità – Monumento funerario di Giulia Gaetani dell’Aquila d’Aragona, moglie di Paolo di Sangro, quarto principe di Sansevero, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502
+    zoom: true
+
+  - id: "cat-13"
+    src: figures/13.jpg
+    caption: "Monumento funerario di Paolo di Sangro, quarto principe di Sansevero, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/32f54c30-294e-4f43-839e-305bcb596b18/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/32f54c30-294e-4f43-839e-305bcb596b18/canvas/ab67f3ab-ff88-4009-9192-f8525526302c
+    zoom: true
+
+  - id: "cat-14"
+    src: figures/14.jpg
+    caption: "Decoro – Monumento funerario di Isabella della Tolfa e Laudomia Milano, prima e seconda moglie di Giovan Francesco di Sangro, terzo principe di Sansevero, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8a999b64-e651-4315-a283-cb7267ef32a3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8a999b64-e651-4315-a283-cb7267ef32a3/canvas/a326bcda-7584-47a4-b7ec-042a5a01e6de
+    zoom: true
+
+  - id: "cat-15"
+    src: figures/15.jpg
+    caption: "Monumento funerario di Giovan Francesco di Sangro, terzo principe di Sansevero (Mestizia?), *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a8faadb2-d916-4923-86f6-a64412b5e82a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a8faadb2-d916-4923-86f6-a64412b5e82a/canvas/7a136dcb-d563-4bc0-863c-dfc9165dab00
+    zoom: true
+
+  - id: "cat-16"
+    src: figures/16.jpg
+    caption: "Monumento funerario di Cecco di Sangro, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/456982f6-e99c-42aa-ac18-7a81844142be/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/456982f6-e99c-42aa-ac18-7a81844142be/canvas/ae5f7a3e-4019-4f3f-80c5-04e714947afc
+    zoom: true
+
+  - id: "cat-17"
+    src: figures/17.jpg
+    caption: "Monumento funerario di Giovan Francesco di Sangro, quinto principe di Sansevero, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/36f0523d-8d83-4fcb-9355-935564cad1ea/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/36f0523d-8d83-4fcb-9355-935564cad1ea/canvas/720a57d1-5f9c-4b17-b427-41d544805d6b
+    zoom: true
+
+  - id: "cat-18"
+    src: figures/18.jpg
+    caption: "Amor divino – Monumento funerario di Giovanna di Sangro dei Marchesi di San Lucido, moglie di Giovan Francesco di Sangro, quinto principe di Sansevero (già statua per il monumento di Paolo e Ferdinando di Sangro), *Michelangelo Naccherino; con interventi di Francesco Maria Queirolo (?)*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8f270399-4bb5-4c0a-8562-45416d6a548f/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8f270399-4bb5-4c0a-8562-45416d6a548f/canvas/7578a2de-b07c-43a5-b4c4-bfd9acf8d4e9
+    zoom: true
+
+  - id: "cat-19"
+    src: figures/19.jpg
+    caption: "Monumento funerario di Paolo di Sangro, secondo principe di Sansevero, *Michelangelo Naccherino*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8cef2d7e-ebb7-4e3b-a441-a4d5199507bc/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8cef2d7e-ebb7-4e3b-a441-a4d5199507bc/canvas/2d88f18d-bb1b-4bf0-ab35-4856fedb848d
+    zoom: true
+
+  - id: "cat-20"
+    src: figures/20.jpg
+    caption: "Educazione – Monumento funerario di Girolama Caracciolo e di Clarice Carafa di Stigliano, prima e seconda moglie di Paolo di Sangro, secondo principe di Sansevero, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/59a48593-38bf-4e8a-a2a7-d33089eed38f/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/59a48593-38bf-4e8a-a2a7-d33089eed38f/canvas/54d76b37-b2dc-443a-8e71-b6913cdc51c3
+    zoom: true
+
+  - id: "cat-21"
+    src: figures/21.jpg
+    caption: "Monumento funerario di Paolo di Sangro, sesto principe di Sansevero, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/canvas/37fcdc40-ec9c-4323-9386-4a1a64175876
+    zoom: true
+
+  - id: "cat-22"
+    src: figures/22.jpg
+    caption: "Dominio di sé stessi – Monumento funerario di Geronima Loffredo, moglie di Paolo di Sangro, sesto principe di Sansevero, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/d1c4b2ec-031f-4764-88f3-8d8aa4f19cb6/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/d1c4b2ec-031f-4764-88f3-8d8aa4f19cb6/canvas/a9cdb951-95f6-4993-bbc1-ff6934f0a824
+    zoom: true
+
+  - id: "cat-23"
+    src: figures/23.jpg
+    caption: "Pavimento labirintico, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/25a741d6-acde-40cb-971e-f31ec53261f6/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/25a741d6-acde-40cb-971e-f31ec53261f6/canvas/5f52b62c-8fd0-4602-9f4d-163898235622
+    zoom: true
+
+  - id: "cat-24"
+    src: figures/24.jpg
+    caption: "Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/94f68cc7-8445-4729-8b40-3f30739a33d3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/94f68cc7-8445-4729-8b40-3f30739a33d3/canvas/8608f76d-f756-4796-b3f9-6ab2c4a0ddf1
+    zoom: true
+
+  - id: "cat-25"
+    src: figures/25.jpg
+    caption: "Sincerità – Monumento funerario di Carlotta Gaetani dell’Aquila d’Aragona, moglie di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Queirolo; Paolo Persico: putto con colombe*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/3cf2a050-bc67-46f7-98bf-6fa9089bc31a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/3cf2a050-bc67-46f7-98bf-6fa9089bc31a/canvas/bc69115d-1041-40f0-99a3-150fa250bcc2
+    zoom: true
+
+  - id: "cat-26"
+    src: figures/26.jpg
+    caption: "Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore, *Francesco Maria Queirolo; Giuseppe Sanmartino: rilievo con il Noli me tangere del basamento*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/2726e7f9-b3e6-4520-b9a5-511e7f3fa078/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/2726e7f9-b3e6-4520-b9a5-511e7f3fa078/canvas/ccdede87-8dd3-4334-b7d9-e9e6260bb688
+    zoom: true
+
+  - id: "cat-27"
+    src: figures/27_1.jpg
+    caption: "Medaglione Cardinale Teodino I, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/3f67a9fa-873a-4bfe-8666-0b848f6d3411/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/3f67a9fa-873a-4bfe-8666-0b848f6d3411/canvas/d9dda432-9fdf-4b64-a2bb-653a51afaadf
+    zoom: true
+
+  - id: "cat-27_2"
+    src: figures/27_2.jpg
+    caption: "Medaglione Cardinale Teodino II, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/ad4d1aa8-5b5c-440e-a80c-83715ee41da1/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/ad4d1aa8-5b5c-440e-a80c-83715ee41da1/canvas/db0d0bc9-b639-41aa-837b-7bc31b908b88
+    zoom: true
+
+  - id: "cat-27_3"
+    src: figures/27_3.jpg
+    caption: "Medaglione Cardinale Leone, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16fdba43-5548-4d9a-ba09-e07e343e968c/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16fdba43-5548-4d9a-ba09-e07e343e968c/canvas/cfd0966e-7da1-4562-96f7-3cd0ff3350bb
+    zoom: true
+
+  - id: "cat-27_4"
+    src: figures/27_4.jpg
+    caption: "Medaglione Cardinale Oderisio, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/6a92b0cc-8fae-4052-8ba2-74abce5d8af4/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/6a92b0cc-8fae-4052-8ba2-74abce5d8af4/canvas/fb61b2c7-3b5d-4680-a049-371cb1a56e60
+    zoom: true
+
+  - id: "cat-27_5"
+    src: figures/27_5.jpg
+    caption: "Medaglione Cardinale Rinaldo, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/ec605fbf-929b-4ac5-a0e0-4c53a2c43e1b/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/ec605fbf-929b-4ac5-a0e0-4c53a2c43e1b/canvas/4e2432b2-24aa-4cc4-bc94-31fb3932245a
+    zoom: true
+
+  - id: "cat-27_6"
+    src: figures/27_6.jpg
+    caption: "Medaglione Cardinale Gentile, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a6d75aa9-435c-495f-9590-82cf6a9c27af/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a6d75aa9-435c-495f-9590-82cf6a9c27af/canvas/2b9aed23-e138-406e-9166-e943a55b12bd
+    zoom: true
+
+  - id: "cat-28"
+    src: figures/28.jpg
+    caption: "Gloria del Paradiso (Paradiso dei Di Sangro), *Francesco Maria Russo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/24481ca1-bb65-44f4-8784-d6de8c6ff2ba/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/24481ca1-bb65-44f4-8784-d6de8c6ff2ba/canvas/0c810224-d379-4e90-8ed4-82ce6424cb2f
+    zoom: true
+
+  - id: "cat-29"
+    src: figures/29_1.jpg
+    caption: "Macchina anatomica uomo, *Giuseppe Salerno*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/cd7ed9cd-d10d-4184-88bd-6376df69ec83/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/cd7ed9cd-d10d-4184-88bd-6376df69ec83/canvas/b60d9818-22a1-43fd-b1c9-3df02f35dd99
+    zoom: true
+
+  - id: "cat-29_2"
+    src: figures/29_2.jpg
+    caption: "Macchina anatomica donna, *Giuseppe Salerno*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/91dc7afd-6ceb-49d8-8d69-9b60b743a632/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/91dc7afd-6ceb-49d8-8d69-9b60b743a632/canvas/63fd50bd-535b-4dd3-b48b-ed0f5ef0bd52
+    zoom: true
+
+  - id: "cat-30"
+    src: figures/30.jpg
+    caption: "Ritratto di Raimondo di Sangro, settimo principe di Sansevero, *Francesco De Mura*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/af60c291-29bc-4f64-b43a-0fe08dd30348/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/af60c291-29bc-4f64-b43a-0fe08dd30348/canvas/a3d80bea-5180-420e-af30-009210b6493a
+    zoom: true
+
+  - id: "cat-31"
+    src: figures/31.jpg
+    caption: "Madonna col Bambino, *Giuseppe Pesce (o Pesci)*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/e6372f32-4b0d-4b43-89ae-ea0fa65b6fac/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/e6372f32-4b0d-4b43-89ae-ea0fa65b6fac/canvas/8b165ab1-e460-4ff5-b69c-602967246acb
+    zoom: true
+
 
   - id: "lange"
     src: figures/lange.jpg
@@ -120,13 +339,6 @@ figure_list:
     caption: "Echoing the work of Lange and Evans, contemporary photographer Chris Killip documents social landscapes and is known for a series of powerful images of struggling industrial communities in North East England."
     credit: "© J. Paul Getty Trust"
 
-  - id: "cat-1"
-    src: figures/lange-mother-a.jpg
-    caption: "Dorothea Lange, *Human Erosion in California / Migrant Mother*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-    download: true
-    zoom: true
-
   - id: "mother-variants"
     label: "Figure 1.1"
     caption: "Alternate versions of Dorothea Lange’s *Migrant Mother*, 1936."
@@ -154,19 +366,4 @@ figure_list:
           - src: "figures/lange-layers/thumb.png"
             selected: true
 
-  - id: "cat-2"
-    src: figures/evans-fields-family-a.jpg
-    caption: "Walker Evans, *Bud Fields with His Wife Ivy, and His Daughter Ellen, Hale County, Alabama*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-    download: true
-    zoom: true
 
-  - id: "cat-2-b"
-    src: figures/evans-fields-family-b.jpg
-    caption: "Walker Evans, *Sharecropper's Family, Hale County, Alabama / Bud Fields and His Family, Hale County, Alabama / Bud Woods and His Family*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-
-  - id: "cat-2-c"
-    src: figures/evans-bud-fields.jpg
-    caption: "Walker Evans, * [William Edward (Bud) Fields, A Cotton Sharecropper, Hale County, Alabama]/[Bud Woods, Tenant Farmer]*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles

@@ -1,7 +1,7 @@
 ---
-title: Indice
+title: INDICE DEI CONTENUTI
 layout: table-of-contents
-order: 6
-presentation: list
+order: 5
+presentation: brief
 search: false
 ---

@@ -3,6 +3,19 @@ import Accordion from './accordion'
 import poll from './poll'
 import scrollToHash from './scroll-to-hash'
 
+const recalibrateViewer = () => {
+  const canvasPanel = document.querySelector('canvas-panel');
+  if (canvasPanel && typeof canvasPanel.transition === 'function') {
+    canvasPanel.transition(tm => setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+      if (tm && tm.runtime) {
+        tm.runtime.goHome();
+        tm.runtime.pendingUpdate = true;
+      }
+    }, 0));
+  }
+}
+
 /**
  * Get annotation data from annotaitons UI input element
  * @param  {HTML Element} input
@@ -227,6 +240,22 @@ const selectChoice = (canvasPanel, annotation) => {
  * Add event handlers to Annotations UI links and inputs
  */
 const setUpUIEventHandlers = () => {
+  const lightbox = document.querySelector('q-lightbox');
+  if (lightbox) {
+    const observer = new MutationObserver((mutationsList) => {
+      for (const mutation of mutationsList) {
+        if (mutation.type === 'attributes' && (mutation.attributeName === 'data-lightbox-current' || mutation.attributeName === 'currentid')) {
+          recalibrateViewer();
+          return;
+        }
+      }
+    });
+    observer.observe(lightbox, { 
+      attributes: true, 
+      subtree: true 
+    });
+  }
+
   /**
    * Add click handlers to ref shortcodes
    */

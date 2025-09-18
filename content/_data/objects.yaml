@@ -1,44 +1,363 @@
 object_display_order:
-  - autore
-  - dati anagrafici autore
-  - titolo
-  - datazione
-  - materia e tecnica
-  - misure
-  - iscrizioni, etichette, cartellini, timbri
-  - acquisizione
-  - numero di inventario
-  - numeri di inventario precedenti
-  - collocazione
+  - Artista
+  - Titolo dell’opera
+  - Tecnica
+  - Materia
+  - Datazione
+  - Dimensioni
+  - Collocazione
 
 object_list:
 
-  - id: 1
-    autore: Scultore dell’Italia settentrionale / Bartolomeo Bellano (?) 
-    dati anagrafici autore: 
-    titolo: San Girolamo in un paesaggio
-    datazione: 1460 circa 
-    materia e tecnica: Marmo
-    misure: 54,5 × 39,5 × 7 cm
-    iscrizioni, etichette, cartellini, timbri: Nessuna
-    acquisizione: Legato Federico Zeri, 1998
-    numero di inventario: Inv. n. 98 ZR 00001
-    numeri di inventario precedenti: Sc. 127 (1998-2007); Sc. 130; Sc. 115; 1998 AC Sculture 00001 (2011-2012); 98 SC ZR001 (2012-2015)
-    collocazione: Non esposto 
-    figure:
-      - id: "cat-35"
+- id: 1
+  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+  Titolo dell’opera: Compianto sul Cristo morto
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1766-1767 circa
+  Dimensioni: "630 (a) x 300 (l) x 60 (p) cm"
+  Collocazione: Cappella Sansevero, altare maggiore
+  figure:
+  - id: cat-1
 
-  - id: 2
-    autore: Scultore emiliano 
-    dati anagrafici autore: 
-    titolo: Ritratto d’uomo
-    datazione: Ultimo quarto del XV secolo
-    materia e tecnica: Marmo
-    misure: 49,5 × 38 × 8 cm
-    iscrizioni, etichette, cartellini, timbri: Nessuna
-    acquisizione: Legato Federico Zeri, 1998
-    numero di inventario: Inv. n. 98 ZR 00002
-    numeri di inventario precedenti: Sc. 128 (1998-2007); Sc. 129; Sc. 114; 1998 AC Sculture 00002 (2011-2012); 98 SC ZR002 (2012-2015)
-    collocazione: Non esposto 
-    figure:
-      - id: "cat-35"
+- id: 2
+  Artista: "Paolo Persico: rilievo; Ignoto pittore meridionale della seconda metà del XVI secolo: dipinto murale"
+  Titolo dell’opera: Gloria angelica; Pietà
+  Tecnica: rilievo; dipinto murale (affresco?)
+  Materia: stucco
+  Datazione: 1769; fine XVI secolo
+  Dimensioni: "Raggiera: 369,86 (a) x 393,52 (l) cm; Dipinto: 176,8 (a) x 140 (l) cm"
+  Collocazione: Cappella Sansevero, altare maggiore
+  figure:
+  - id: cat-2
+
+- id: 3
+  Artista: Paolo Persico
+  Titolo dell’opera: Angeli e putti con i simboli della Passione
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1766-1767
+  Dimensioni: "262 (a) x 160 (l) x 100 (p) cm / 245 (a) x 150 (l) x 83 (p) cm"
+  Collocazione: Cappella Sansevero, altare maggiore
+  figure:
+  - id: cat-3
+  - id: cat-3_2
+
+- id: 4
+  Artista: "Giovan Domenico Monterosso: busto e angeli; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640) e Giovanni Antonio Galluccio: progetto del sepolcro e paramento marmoreo"
+  Titolo dell’opera: Monumento funerario di Alessandro di Sangro, patriarca di Alessandria
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1625-1627
+  Dimensioni: "464 (a) x 270 (l) x 60 (p) cm"
+  Collocazione: Cappella Sansevero, altare maggiore
+  figure:
+  - id: cat-4
+
+- id: 5
+  Artista: Giuseppe Sanmartino (Napoli, 1720 – ivi, 1793)
+  Titolo dell’opera: Cristo velato
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: firmato e datato 1753
+  Dimensioni: "100 (a) x 188 (l) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-5
+
+- id: 6
+  Artista: Antonio Corradini (Este, 1688 – Napoli, 1752)
+  Titolo dell’opera: Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1752
+  Dimensioni: "590 (a) x 160 (l) x 100 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-6
+
+- id: 7
+  Artista: Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762)
+  Titolo dell’opera: Sant’Oderisio; Santa Rosalia 
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1755-1756 circa
+  Dimensioni: "397 (a) x 300 (l) x 75 (p) cm; 435 (a) x 300 (l) x 122 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-7
+  - id: cat-7_2
+
+- id: 8
+  Artista: Paolo Persico
+  Titolo dell’opera: Soavità del giogo coniugale – Monumento funerario di Gaetana Mirelli, moglie di Vincenzo di Sangro, ottavo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: firmato e datato 1768
+  Dimensioni: "500 (a) x 150 (l) x 65 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-8
+
+- id: 9
+  Artista: "Autore ignoto: ideazione ed esecuzione del monumento; Carlo Amalfi: ritratto pittorico"
+  Titolo dell’opera: Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero
+  Tecnica: rilievo, olio
+  Materia: marmi vari, rame
+  Datazione: ante 1771
+  Dimensioni: "240 (a) x 230 (l) x 50 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-9
+
+- id: 10
+  Artista: "Fortunato Onelli e altri; Francesco Celebrano (Napoli, 1729 – ivi, 1814): direzione dei lavori"
+  Titolo dell’opera: Zelo della Religione – Monumento funerario di Ippolita del Carretto e di Adriana Carafa della Spina, prima e seconda moglie di Giovan Francesco di Sangro, primo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1766-1767
+  Dimensioni: "320 (a) x 130 (l) x 66 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-10
+
+- id: 11
+  Artista: "Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640): progetto del sepolcro e paramento marmoreo"
+  Titolo dell’opera: Monumento funerario di Giovan Francesco di Sangro, primo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1614-1615
+  Dimensioni: "580 (a) x 300 (l) x 55 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-11
+
+- id: 12
+  Artista: Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762)
+  Titolo dell’opera: Liberalità – Monumento funerario di Giulia Gaetani dell’Aquila d’Aragona, moglie di Paolo di Sangro, quarto principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1753-1754 circa
+  Dimensioni: "500 (a) x 150 (l) x 80 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-12
+
+- id: 13
+  Artista: Giulio Mencaglia (scultore); Berardino Landini (marmoraio)
+  Titolo dell’opera: Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1642
+  Dimensioni: "570 (a) x 300 (l) x 88 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-13
+
+- id: 14
+  Artista: Antonio Corradini (Este, 1688 – Napoli, 1752)
+  Titolo dell’opera: Decoro – Monumento funerario di Isabella della Tolfa e Laudomia Milano, prima e seconda moglie di Giovan Francesco di Sangro, terzo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1750-1752 circa
+  Dimensioni: "450 (a) x 117 (l) x 65 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-14
+
+- id: 15
+  Artista: Antonio Corradini (Este, 1688 – Napoli, 1752) (?)
+  Titolo dell’opera: Monumento funerario di Giovan Francesco di Sangro, terzo principe di Sansevero (Mestizia?)
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1750-1752 (?)
+  Dimensioni: "396 (a) x 105 (l) x 78 (p) cm"
+  Collocazione: Cappella Sansevero, controfacciata
+  figure:
+  - id: cat-15
+
+- id: 16
+  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+  Titolo dell’opera: Monumento funerario di Cecco di Sangro
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: firmato e datato 1766
+  Dimensioni: "340 (a) x 280 (l) x 120 (p) cm"
+  Collocazione: Cappella Sansevero, controfacciata
+  figure:
+  - id: cat-16
+
+- id: 17
+  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814) (?)
+  Titolo dell’opera: Monumento funerario di Giovan Francesco di Sangro, quinto principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1766
+  Dimensioni: "396 (a) x 105 (l) x 92 (p) cm"
+  Collocazione: Cappella Sansevero, controfacciata
+  figure:
+  - id: cat-17
+
+- id: 18
+  Artista: Michelangelo Naccherino (Firenze, 1550 – Napoli, 1622); con interventi di Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762) (?)
+  Titolo dell’opera: Amor divino – Monumento funerario di Giovanna di Sangro dei Marchesi di San Lucido, moglie di Giovan Francesco di Sangro, quinto principe di Sansevero (già statua per il monumento di Paolo e Ferdinando di Sangro)
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1609-1613; 1755 circa
+  Dimensioni: "450 (a) x 117 (l) x 52 (p) cm"
+  Collocazione: Cappella Sansevero, controfacciata
+  figure:
+  - id: cat-18
+
+- id: 19
+  Artista: Michelangelo Naccherino (Firenze, 1550 – Napoli, 1622)
+  Titolo dell’opera: Monumento funerario di Paolo di Sangro, secondo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1609-1615
+  Dimensioni: "550 (a) x 315 (l) x 88 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-19
+
+- id: 20
+  Artista: Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762)
+  Titolo dell’opera: Educazione – Monumento funerario di Girolama Caracciolo e di Clarice Carafa di Stigliano, prima e seconda moglie di Paolo di Sangro, secondo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1753
+  Dimensioni: "500 (a) x 150 (l) x 60 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-20
+
+- id: 21
+  Artista: Antonio Corradini (Este, 1688 – Napoli, 1752)
+  Titolo dell’opera: Monumento funerario di Paolo di Sangro, sesto principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1750-1752 circa
+  Dimensioni: "580 (a) x 300 (l) x 44 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-21
+
+- id: 22
+  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+  Titolo dell’opera: Dominio di sé stessi – Monumento funerario di Geronima Loffredo, moglie di Paolo di Sangro, sesto principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: firmato e datato 1767
+  Dimensioni: "450 (a) x 181 (l) x 60 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-22
+
+- id: 23
+  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+  Titolo dell’opera: Pavimento labirintico
+  Tecnica: tarsia
+  Materia: marmo
+  Datazione: 1770 circa
+  Dimensioni: "Lastra: 90 (a) x 90 (l) cm"
+  Collocazione: Cappella Sansevero
+  figure:
+  - id: cat-23
+
+- id: 24
+  Artista: "Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico"
+  Titolo dell’opera: Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero
+  Tecnica: rilievo, olio
+  Materia: marmi vari, rame
+  Datazione: 1759 circa (o post 1759)
+  Dimensioni: "500 (a) x 400 (l) x 70 (p) cm"
+  Collocazione: Cappella Sansevero, passetto antistante alla sacrestia
+  figure:
+  - id: cat-24
+
+- id: 25
+  Artista: "Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762); Paolo Persico: putto con colombe"
+  Titolo dell’opera: Sincerità – Monumento funerario di Carlotta Gaetani dell’Aquila d’Aragona, moglie di Raimondo di Sangro, settimo principe di Sansevero
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1754-1760 circa
+  Dimensioni: "500 (a) x 150 (l) x 65 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-25
+
+- id: 26
+  Artista: "Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762); Giuseppe Sanmartino (Napoli, 1720 – ivi, 1793): rilievo con il Noli me tangere del basamento"
+  Titolo dell’opera: Il Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1753-1754 circa
+  Dimensioni: "632 (a) x 170 (l) x 100 (p) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-26
+
+- id: 27
+  Artista: Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762)
+  Titolo dell’opera: Sei medaglioni con ritratti di cardinali di casa Di Sangro
+  Tecnica: rilievo
+  Materia: marmo
+  Datazione: 1753-1754 circa
+  Dimensioni: "98 (a) x 78 (l) cm"
+  Collocazione: Cappella Sansevero, navata
+  figure:
+  - id: cat-27
+  - id: cat-27_2
+  - id: cat-27_3
+  - id: cat-27_4
+  - id: cat-27_5
+  - id: cat-27_6
+
+- id: 28
+  Artista: Francesco Maria Russo
+  Titolo dell’opera: Gloria del Paradiso (Paradiso dei Di Sangro)
+  Tecnica: dipinto murale (affresco con finiture a secco?)
+  Materia:
+  Datazione: firmato e datato 1749
+  Dimensioni: "500 (a) x 1000 (l) cm"
+  Collocazione: Cappella Sansevero, volta
+  figure:
+  - id: cat-28
+
+- id: 29
+  Artista: Giuseppe Salerno (Palermo, 1728 – ivi, 1792)
+  Titolo dell’opera: Macchine anatomiche
+  Tecnica: ceroplastica
+  Materia: scheletri umani, ferro, cera, coloranti, perni, cerniere, chiodi
+  Datazione: 1756, 1763
+  Dimensioni: "140 (a) x 70 (l) cm; 180 (a) x 41 (l) cm"
+  Collocazione: Cappella Sansevero, cavea sotterranea
+  figure:
+  - id: cat-29
+  - id: cat-29_2
+
+
+- id: 30
+  Artista: Francesco De Mura (Napoli, 1696 – ivi, 1782)
+  Titolo dell’opera: Ritratto di Raimondo di Sangro, settimo principe di Sansevero
+  Tecnica: olio
+  Materia: tela
+  Datazione: 1750 circa
+  Dimensioni: "91 (a) x 73 (l) cm"
+  Collocazione: Cappella Sansevero, sacrestia
+  figure:
+  - id: cat-30
+
+- id: 31
+  Artista: Giuseppe Pesce (o Pesci)
+  Titolo dell’opera: Madonna col Bambino
+  Tecnica: cere colorate a tempera
+  Materia: carta incollata su tela
+  Datazione: 1757
+  Dimensioni: "75 (a) x 61 (l) cm"
+  Collocazione: Cappella Sansevero, sacrestia
+  figure:
+  - id: cat-31
+
+
+  
