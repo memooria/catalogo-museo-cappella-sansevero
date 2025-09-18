@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://sanseverov.dev-box.it/iiif/mother-annotations/base/tiles",
+  "@id": "https://catalogoscientifico.museosansevero.it/iiif/mother-annotations/base/tiles",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {

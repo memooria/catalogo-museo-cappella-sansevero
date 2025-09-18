@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://sanseverov.dev-box.it/iiif/mother-variants/manifest.json",
+  "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,25 +9,25 @@
   },
   "items": [
     {
-      "id": "https://sanseverov.dev-box.it/iiif/mother-variants/canvas",
+      "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/canvas",
       "type": "Canvas",
       "height": 1024,
       "width": 826,
       "items": [
         {
-          "id": "https://sanseverov.dev-box.it/iiif/mother-variants/canvas/annotation-page",
+          "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/canvas/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://sanseverov.dev-box.it/iiif/mother-variants/canvas/choices",
+              "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/canvas/choices",
               "motivation": "painting",
-              "target": "https://sanseverov.dev-box.it/iiif/mother-variants/canvas",
+              "target": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/canvas",
               "type": "Annotation",
               "body": {
                 "type": "Choice",
                 "items": [
                   {
-                    "id": "https://sanseverov.dev-box.it/iiif/mother-variants/lange-mother-b.jpg",
+                    "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/lange-mother-b.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 1024,
@@ -39,7 +39,7 @@
                     }
                   },
                   {
-                    "id": "https://sanseverov.dev-box.it/iiif/mother-variants/lange-mother-c.jpg",
+                    "id": "https://catalogoscientifico.museosansevero.it/iiif/mother-variants/lange-mother-c.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 1024,
