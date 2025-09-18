@@ -17,6 +17,6 @@ search: true
 **progettazione, sviluppo e crediti fotografici:** Haltadefinizione S.r.l.
 
 
-**ISBN:** DADEFINIRE
+**ISBN:** 978-88-941850-2-7
 
-**DOI:** DADEFINIRE
+**DOI:** 10.82049/CATALOGO
