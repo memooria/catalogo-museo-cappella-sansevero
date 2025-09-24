@@ -29,10 +29,13 @@ module.exports = function(options={}) {
     })
     processor.cite({ citationItems: [{ id: item.id }] })
     const citation = processor.bibliography().value
-   let fullCitation = citation.replace(/\s+$/, '')
+let fullCitation = citation.replace(/\s+$/, '')
+
+// Rimuove URL se presente
+fullCitation = fullCitation.replace(/https?:\/\/[^\s]+/, '')
 
 if (item.doi) {
-  fullCitation += ` <br/> <a href="https://doi.org/${item.doi}" target="_blank" style="word-break: break-word;">${item.doi}</a>`
+  fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank">${item.doi}</a>`
 }
 
 fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
