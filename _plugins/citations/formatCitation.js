@@ -8,7 +8,7 @@ const defaultStyles = {
   mla: require('./styles/mla')
 }
 
-module.exports = function(options={}) {
+module.exports = function(options = {}) {
   const locale = require(options.locale || 'locale-en-us')
   const styles = Object.assign(defaultStyles, options.styles)
 
@@ -21,26 +21,27 @@ module.exports = function(options={}) {
       logger.error(`Citation style "${type}" is not supported. You may need to add it to _plugins/citations/styles.`)
       return
     }
-if (item.url) {
-  item.url = ''
+
     const processor = new Processor({
       items: [item],
       locale,
       style
     })
+
     processor.cite({ citationItems: [{ id: item.id }] })
     const citation = processor.bibliography().value
-let fullCitation = citation.replace(/\s+$/, '')
+    let fullCitation = citation.replace(/\s+$/, '')
 
-// Rimuove URL se presente
-fullCitation = fullCitation.replace(/https?:\/\/[^\s]+/, '')
+    // Rimuove URL se presente
+    fullCitation = fullCitation.replace(/https?:\/\/[^\s]+/, '')
 
-if (item.doi) {
-  fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank">${item.doi}</a>`
-}
+    // Aggiunge DOI come link cliccabile ma senza la URL estesa
+    if (item.doi) {
+      fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank" rel="noopener">${item.doi}</a>`
+    }
 
-fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
+    fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
 
-return fullCitation
+    return fullCitation
   }
 }
