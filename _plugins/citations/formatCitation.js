@@ -8,13 +8,12 @@ const defaultStyles = {
   mla: require('./styles/mla')
 }
 
-module.exports = function(options = {}) {
+module.exports = function (options = {}) {
   const locale = require(options.locale || 'locale-en-us')
   const styles = Object.assign(defaultStyles, options.styles)
 
-  return function(item, params) {
+  return function (item, params) {
     const { type } = params
-
     const style = styles[type]
 
     if (!style) {
@@ -28,16 +27,15 @@ module.exports = function(options = {}) {
       style
     })
 
-    processor.cite({ citationItems: [{ id: item.id }] })
+    processor.cite({
+      citationItems: [{ id: item.id }]
+    })
+
     const citation = processor.bibliography().value
     let fullCitation = citation.replace(/\s+$/, '')
 
-    // Rimuove URL se presente
-    fullCitation = fullCitation.replace(/https?:\/\/[^\s]+/, '')
-
-    // Aggiunge DOI come link cliccabile ma senza la URL estesa
     if (item.doi) {
-    fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank" rel="noopener noreferrer">${item.doi}</a>.`
+      fullCitation += `. DOI: <a href="https://doi.org/${item.doi}" target="_blank">${item.doi}</a>`
     }
 
     fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
