@@ -21,7 +21,8 @@ module.exports = function(options={}) {
       logger.error(`Citation style "${type}" is not supported. You may need to add it to _plugins/citations/styles.`)
       return
     }
-
+if (item.url) {
+  item.url = ''
     const processor = new Processor({
       items: [item],
       locale,
