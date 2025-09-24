@@ -37,7 +37,7 @@ module.exports = function(options = {}) {
 
     // Aggiunge DOI come link cliccabile ma senza la URL estesa
     if (item.doi) {
-      fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank" rel="noopener">${item.doi}</a>`
+    fullCitation += ` DOI: <a href="https://doi.org/${item.doi}" target="_blank" rel="noopener noreferrer">${item.doi}</a>.`
     }
 
     fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
