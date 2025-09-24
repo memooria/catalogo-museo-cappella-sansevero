@@ -29,8 +29,12 @@ module.exports = function(options={}) {
     })
     processor.cite({ citationItems: [{ id: item.id }] })
     const citation = processor.bibliography().value
-    return type === 'mla'
-      ? `${citation.replace(/\s+$/, '')} Accessed <span class="cite-current-date">DD Mon. YYYY</span>.`
-      : citation
+    let fullCitation = citation.replace(/\s+$/, '')
+if (item.doi) {
+  fullCitation += `. DOI: <a href="https://doi.org/${item.doi}" target="_blank">${item.doi}</a>`
+}
+fullCitation += ' Accessed <span class="cite-current-date">DD Mon. YYYY</span>.'
+
+return fullCitation
   }
 }
