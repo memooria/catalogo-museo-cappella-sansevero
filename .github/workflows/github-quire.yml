@@ -62,10 +62,11 @@ jobs:
       - name: Quire PDF build
         continue-on-error: true
         run: |
+          sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
           quire pdf
-          sudo apt-get install pandoc wkhtmltopdf
+          sed -i 's|https://'"${PUBLIC_URL}"'|.|g' _site/pdf.html
           mkdir -p _site/downloads
-          pandoc _site/pdf.html -o _site/downloads/output.pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access
+          (cd _site && pandoc pdf.html -o downloads/output.pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access)
 
       - name: GH Pages customizations
         run: |
