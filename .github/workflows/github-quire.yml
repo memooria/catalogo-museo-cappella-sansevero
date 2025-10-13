@@ -64,7 +64,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
           quire pdf
-          sed -i 's|https://'"${PUBLIC_URL}"'|.|g' _site/pdf.html
+          sed -i 's|src="https://'"${PUBLIC_URL}"'|src=".|g' _site/pdf.html
           mkdir -p _site/downloads
           (cd _site && pandoc pdf.html -o downloads/output.pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access)
 
