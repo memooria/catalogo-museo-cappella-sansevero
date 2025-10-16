@@ -64,7 +64,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
           quire pdf
-          echo 'body { font-family: Arial, sans-serif !important; font-size: 13px !important; }' > _site/custom-font.css
+          echo 'body { font-family: Arial, sans-serif !important; font-size: 22px !important; }' > _site/custom-font.css
           sed -i 's|src="https://'"${PUBLIC_URL}"'|src=".|g' _site/pdf.html
           mkdir -p _site/downloads
           (cd _site && pandoc pdf.html -o downloads/catalogo-san-severo.pdf --css=custom-font.css --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access)
