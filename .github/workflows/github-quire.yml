@@ -64,9 +64,10 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
           quire pdf
+          echo 'body { font-family: Arial, sans-serif !important; font-size: 10pt !important; }' > _site/custom-font.css
           sed -i 's|src="https://'"${PUBLIC_URL}"'|src=".|g' _site/pdf.html
           mkdir -p _site/downloads
-          (cd _site && pandoc pdf.html -o downloads/catalogo-san-severo.pdf --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access)
+          (cd _site && pandoc pdf.html -o downloads/catalogo-san-severo.pdf --css=custom-font.css --pdf-engine=wkhtmltopdf --pdf-engine-opt=--enable-local-file-access)
 
       - name: GH Pages customizations
         run: |
