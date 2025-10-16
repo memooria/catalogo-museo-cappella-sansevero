@@ -45,3 +45,5 @@ thumbs.db
 
 docs/static/CNAME
 docs/CNAME
+
+node_modules
