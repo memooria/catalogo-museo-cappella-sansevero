@@ -9,12 +9,12 @@
 
 # ------------------------------------------------------------------------------
 # The publication's base URL, i.e. 'https://www.my-publication.org'
-url: 'https://quireac.dev-box.it'
+url: "https://quireac.dev-box.it"
 
 # ------------------------------------------------------------------------------
 # Title & Description
-title: MUSEO CAPPELLA SANSEVERO - Catalogo scientifico digitale 
-subtitle: 
+title: MUSEO CAPPELLA SANSEVERO - Catalogo scientifico digitale
+subtitle:
 reading_line:
 short_title:
 
@@ -30,7 +30,7 @@ pub_date: 2025-09-15 # YYYY-MM-DD
 language: it
 pub_type: book # book | journal-periodical | other
 
-identifier: 
+identifier:
   isbn: 978-88-941850-2-7
   DOI: 10.82049/CATALOGO
 
@@ -116,12 +116,12 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url: /downloads/output.pdf
+    url: /downloads/catalogo-san-severo.pdf
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: /downloads/output.epub
+    url: /downloads/catalogo-san-severo.epub
 
 # ------------------------------------------------------------------------------
 # Subjects
