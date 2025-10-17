@@ -64,7 +64,6 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
           quire pdf
-          sed -i 's|href="/|href="https://'"${PUBLIC_URL}"'/|g' _site/pdf.html
           echo 'body { font-family: Arial, sans-serif !important; font-size: 22px !important; }' > _site/custom-font.css
           sed -i 's|src="https://'"${PUBLIC_URL}"'|src=".|g' _site/pdf.html
           mkdir -p _site/downloads
