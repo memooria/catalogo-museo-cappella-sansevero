@@ -16,9 +16,19 @@ module.exports = async function(data) {
 
   return html`
     <!doctype html>
-    <html lang="${publication.language}">
-      ${this.head(data)}
-      <body>
+<html lang="${publication.language}">
+  ${this.head(data)}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWM2XLJ87E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KWM2XLJ87E');
+  </script>
+
+  <body>
         ${this.icons(data)}
         ${this.iconscc(data)}
         <div class="quire no-js" id="container">
