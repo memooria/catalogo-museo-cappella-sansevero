@@ -1,0 +1,57 @@
+name: Quire POC bilingue
+
+on:
+  push:
+    branches:
+      - poc-bilingue
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quire-build-poc:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Quire CLI
+        run: sudo npm install --global @thegetty/quire-cli@1.0.0-rc.11
+
+      - name: Show branch
+        run: |
+          echo "Branch corrente:"
+          git branch --show-current
+
+      - name: Publication URL customization
+        run: |
+          sed -i 's@^url:.*$@url: https://example.invalid@' content/_data/publication.yaml
+          grep '^url:' content/_data/publication.yaml
+
+      - name: Quire build
+        run: quire build
+
+      - name: Verify generated site
+        run: |
+          echo "Controllo cartella _site..."
+          test -d _site
+          echo "Build completata correttamente."
+          find _site -maxdepth 2 -type f | head -50
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sansevero-poc-bilingue-site
+          path: _site
+          retention-days: 7
