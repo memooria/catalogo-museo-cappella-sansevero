@@ -3,6 +3,8 @@ title: INTRODUZIONE
 layout: page
 order: 6
 image: 
+lang: it
+translation: /en/introduction/
 ---
 
 
