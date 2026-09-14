@@ -5,4 +5,6 @@ order: 1
 menu: false
 toc: false
 image: Cover_San_Severo.jpg
+lang: it
+translation: /en/
 ---
