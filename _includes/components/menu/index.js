@@ -26,6 +26,12 @@ module.exports = function(eleventyConfig) {
 
     if (!pageData) return
 
+    const currentLang = pageData.data.lang || (pageData.url.startsWith('/en/') ? 'en' : 'it')
+    const menuPages = collections.menu.filter(({ data, url }) => {
+      const pageLang = data.lang || (url.startsWith('/en/') ? 'en' : 'it')
+      return pageLang === currentLang
+    })
+
     const footerLinks = resourceLinks.filter(({ type }) => type === 'footer-link')
 
     return html`
@@ -37,7 +43,7 @@ module.exports = function(eleventyConfig) {
         ${menuHeader({ currentURL: pageData.url })}
         <nav id="nav" class="quire-menu__list menu-list" role="navigation" aria-label="full">
           <h3 class="visually-hidden">Table of Contents</h3>
-          ${menuList({ currentURL: pageData.url, navigation: eleventyNavigation(collections.menu) })}
+          ${menuList({ currentURL: pageData.url, navigation: eleventyNavigation(menuPages) })}
         </nav>
 
         ${menuResources()}
