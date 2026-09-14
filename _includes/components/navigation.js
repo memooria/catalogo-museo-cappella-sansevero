@@ -30,8 +30,13 @@ module.exports = function(eleventyConfig) {
 
     if (!currentPage) return
     
-    const home = '/'
+    const currentLang = currentPage.data.lang || (currentPage.url.startsWith('/en/') ? 'en' : 'it')
+    const home = currentLang === 'en' ? '/en/' : '/'
     const isHomePage = currentPage.url === home
+    const langNavigation = collections.navigation.filter(({ data, url }) => {
+      const pageLang = data.lang || (url.startsWith('/en/') ? 'en' : 'it')
+      return pageLang === currentLang
+    })
 
     const navBarLabel = ({ label, short_title, title }) => {
       return pageTitle({ label, title: short_title || truncate(title, 34)})
@@ -39,7 +44,8 @@ module.exports = function(eleventyConfig) {
 
     const navBarStartButton = () => {
       if (!isHomePage) return ''
-      const secondPageLink = collections.navigation[1].url
+      const secondPageLink = langNavigation[1] && langNavigation[1].url
+      if (!secondPageLink) return ''
       return `
         <li class="quire-navbar-page-controls__item quire-home-page">
           <a href="${secondPageLink}" rel="next">
@@ -112,6 +118,21 @@ module.exports = function(eleventyConfig) {
       `
     }
 
+    const languageSwitch = () => {
+      const translation = currentPage.data.translation
+      if (!translation) return ''
+      const targetLang = currentLang === 'en' ? 'it' : 'en'
+      const currentLabel = currentLang.toUpperCase()
+      const targetLabel = targetLang.toUpperCase()
+      return html`
+        <div class="quire-language-switch" aria-label="Language selector">
+          <span class="quire-language-switch__current" aria-current="page">${currentLabel}</span>
+          <span class="quire-language-switch__divider">|</span>
+          <a class="quire-language-switch__link" href="${translation}" hreflang="${targetLang}">${targetLabel}</a>
+        </div>
+      `
+    }
+
     return html`
       <div class="quire-navbar">
         <a href="#main" class="quire-navbar-skip-link" tabindex="1">
@@ -141,6 +162,7 @@ module.exports = function(eleventyConfig) {
             </ul>
           </div>
           <div class="quire-navbar-controls__right">
+            ${languageSwitch()}
             <button
               class="quire-navbar-button menu-button"
               id="quire-controls-menu-button"
@@ -160,7 +182,7 @@ module.exports = function(eleventyConfig) {
         </nav>
         <div class="quire-progress-bar">
           <div style="width: ${percentProgress}%;">
-            <span>${currentPageIndex + 1}/${collections.navigation.length}</span>
+            <span>${currentPageIndex + 1}/${langNavigation.length}</span>
           </div>
         </div>
       </div>
