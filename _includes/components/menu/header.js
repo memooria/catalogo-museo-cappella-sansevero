@@ -16,9 +16,11 @@ module.exports = function(eleventyConfig) {
 
   return function(params) {
     const { currentURL } = params
-    const isHomePage = currentURL === '/'
+    const currentLang = currentURL.startsWith('/en/') ? 'en' : 'it'
+    const homeURL = currentLang === 'en' ? '/en/' : '/'
+    const isHomePage = currentURL === homeURL
 
-    const homePageLinkOpenTag = isHomePage ? '' : `<a class="quire-menu__header__title-link" href="/">`
+    const homePageLinkOpenTag = isHomePage ? '' : `<a class="quire-menu__header__title-link" href="${homeURL}">`
     const homePageLinkCloseTag = isHomePage ? '' : `</a>`
 
     const contributorContent = contributor_as_it_appears || contributors({ context: publicationContributors, format: 'string', type: 'primary' })
